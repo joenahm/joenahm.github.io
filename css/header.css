@@ -1,0 +1,39 @@
+#atama {
+  height: 200px;
+  background: #069;
+  padding-top: 20px;
+  border-bottom: 3px #555 solid; }
+  #atama a {
+    color: #fff; }
+  #atama #title {
+    width: 150px;
+    margin: 0 auto;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-left: 2px #fff solid;
+    border-right: 2px #fff solid; }
+    #atama #title:hover {
+      background: #fff; }
+    #atama #title a:hover {
+      color: #069;
+      text-decoration: none; }
+  #atama #subtitle {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    background: #fff;
+    color: #069;
+    text-align: center; }
+  #atama nav {
+    height: 30px;
+    margin-top: 60px;
+    text-align: center; }
+    #atama nav li {
+      list-style: none; }
+    #atama nav a {
+      display: inline-block;
+      margin: 0 10px 0 10px; }
+    #atama nav .tag-list-item {
+      display: inline-block; }

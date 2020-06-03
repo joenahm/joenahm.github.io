@@ -1,0 +1,58 @@
+#atama{
+	height: 200px;
+	background: #069;
+	padding-top: 20px;
+	border-bottom: 3px #555 solid;
+
+	a{
+		color: #fff;
+	}
+
+	#title{
+		width: 100px;
+		margin: 0 auto;
+		font-size: 28px;
+		text-align: center;
+		margin-bottom: 20px;
+		border:{
+			left: 2px #fff solid;
+			right: 2px #fff solid;
+		}
+
+		&:hover{
+			background: #fff;
+		}
+
+		a:hover{
+			color: #069;
+			text-decoration: none;
+		}
+	}
+	#subtitle{
+		width: 200px;
+		height: 30px;
+		line-height: 30px;
+		margin: 0 auto;
+		background: #fff;
+		color: #069;
+		text-align: center;
+	}
+	nav{
+		height: 30px;
+		margin-top: 60px;
+		text-align: center;
+
+		li{
+			list-style: none;
+		}
+
+		a{
+			display: inline-block;
+			margin: 0 10px 0 10px;
+		}
+
+		.tag-list-item{
+			display: inline-block;
+		}
+	}
+}
