@@ -1,4 +1,5 @@
 #atama {
+  text-align: center;
   height: 200px;
   background: #069;
   padding-top: 20px;
@@ -19,13 +20,12 @@
       color: #069;
       text-decoration: none; }
   #atama #subtitle {
-    width: 200px;
+    display: inline-block;
     height: 30px;
     line-height: 30px;
-    margin: 0 auto;
+    padding: 0 10px;
     background: #fff;
-    color: #069;
-    text-align: center; }
+    color: #069; }
   #atama nav {
     height: 30px;
     margin-top: 60px;
