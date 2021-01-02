@@ -34,6 +34,14 @@
       list-style: none; }
     #atama nav a {
       display: inline-block;
-      margin: 0 10px 0 10px; }
+      margin: 0 5px 0 15px; }
     #atama nav .tag-list-item {
       display: inline-block; }
+    #atama nav .tag-list-count {
+      display: inline-block;
+      background: #fff;
+      color: #069;
+      padding: 0 5px;
+      height: 20px;
+      line-height: 18px;
+    }
