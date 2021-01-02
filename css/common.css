@@ -45,7 +45,7 @@ blockquote {
   width: 95%;
   margin: 0 auto;
   background: #fff;
-  padding: 50px 0px 50px 0px;
+  padding: 10px 0;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px #ccc solid;
@@ -54,22 +54,35 @@ blockquote {
 @media screen and (min-width: 800px) {
   #stage {
     width: 70%;
+    padding: 50px 0px;
   }
 }
 #stage ul#post {
   list-style: none;
 }
 #stage ul#post li {
+  display: flex;
+  justify-content: space-between;
   height: 40px;
   line-height: 40px;
-  padding: 0 10px 0 10px;
+  padding: 0;
+}
+@media screen and (min-width: 800px) {
+  #stage ul#post li {
+    padding: 0 10px;
+  }
 }
 #stage ul#post li:hover {
   background: #eee;
   border: none;
 }
+#stage ul#post li a {
+  display: inline-block;
+  height: 30px;
+  max-width: 80%;
+  overflow: hidden;
+}
 #stage ul#post li span {
-  float: right;
   color: #ccc; 
 }
 
