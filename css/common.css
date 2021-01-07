@@ -41,6 +41,24 @@ blockquote {
   border-left: 5px solid #099;
 }
 
+h3 {
+  margin: 15px 0 0 0;
+}
+
+table {
+  border-spacing: 2px;
+}
+table thead th {
+  padding: 0 15px;
+  background: #069;
+  color: #fff;
+}
+table td {
+  max-width: 200px;
+  padding: 0 15px;
+  background-color: #acf;
+}
+
 #stage {
   width: 95%;
   margin: 0 auto;

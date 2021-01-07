@@ -17,13 +17,33 @@
 	<div id="title"><a href="/">齐水长青</a></div>
 	<div id="subtitle"><span>九天揽月总不及，恰似飞鸿踏雪泥</span></div>
 	<nav>
-		<ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%9D%E6%83%B3/" rel="tag">思想</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%BC%AB%E8%AF%84/" rel="tag">漫评</a><span class="tag-list-count">2</span></li></ul>	
+		<ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%9D%E6%83%B3/" rel="tag">思想</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%BC%AB%E8%AF%84/" rel="tag">漫评</a><span class="tag-list-count">2</span></li></ul>	
 	</nav>
 </div>
 
 	
 <link rel="stylesheet" href="/css/post.css">
 
+<style>
+	#comment {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.btn {
+		width: 100px;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background: #069;
+		color: #fff;
+	}
+	.btn:hover {
+		background: #009;
+		text-decoration: none;
+		font-weight: bold;
+	}
+</style>
 <div id="wrapper">
 	<div id="stage">
 		<h2 id="title">生而为人，为什么不做一次椿？——关于《大鱼海棠》的逆向思维</h2>
@@ -41,7 +61,14 @@
 <p>所以，去做生活的主角吧。又有什么值得担忧的呢？成败都是以你为主角的故事啊！而他们，他们只是评头论足者，弹幕而已。</p>
 </div>
 		<ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%9D%E6%83%B3/" rel="tag">思想</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%BC%AB%E8%AF%84/" rel="tag">漫评</a></li></ul>
+		<div id="comment">
+			<a class="btn" href="" target="_blank">评论</a>
+		</div>
 	</div>
+	<script>
+		const url = `https://gitee.com/joenahm/joenahm/tree/master${location.pathname}`;
+		document.querySelector('.btn').setAttribute('href', url);
+	</script>
 </div>
 
 
