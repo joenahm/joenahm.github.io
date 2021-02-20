@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>对话系统调研笔记 | 齐水长青</title>
+	<link rel="icon" href="/favicon.ico">
+	
+<link rel="stylesheet" href="/css/common.css">
+	
+<meta name="generator" content="Hexo 4.2.1"></head>
+<body>
+	
+<link rel="stylesheet" href="/css/header.css">
+
+<div id="atama">
+	<div id="title"><a href="/">齐水长青</a></div>
+	<div id="subtitle"><span>九天揽月总不及，恰似飞鸿踏雪泥</span></div>
+	<nav>
+		<ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%9D%E6%83%B3/" rel="tag">思想</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%BC%AB%E8%AF%84/" rel="tag">漫评</a><span class="tag-list-count">2</span></li></ul>	
+	</nav>
+</div>
+
+	
+<link rel="stylesheet" href="/css/post.css">
+
+<style>
+	#comment {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.btn {
+		width: 100px;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		background: #069;
+		color: #fff;
+	}
+	.btn:hover {
+		background: #009;
+		text-decoration: none;
+		font-weight: bold;
+	}
+</style>
+<div id="wrapper">
+	<div id="stage">
+		<h2 id="title">对话系统调研笔记</h2>
+		<p id="date">2021.1.2</p>
+		<br>
+		<div id="content"><h3 id="对话系统分类"><a href="#对话系统分类" class="headerlink" title="对话系统分类"></a>对话系统分类</h3><table>
+<thead>
+<tr>
+<th></th>
+<th>任务型</th>
+<th>开放域聊天</th>
+<th>知识问答</th>
+<th>推荐系统</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>目的</strong></td>
+<td>完成任务/动作</td>
+<td>闲聊</td>
+<td>知识获取</td>
+<td>信息推荐</td>
+</tr>
+<tr>
+<td><strong>领域</strong></td>
+<td>特定域(垂类)</td>
+<td>开放域</td>
+<td>开放域</td>
+<td>特定域</td>
+</tr>
+<tr>
+<td><strong>场景</strong></td>
+<td>个人助理</td>
+<td>娱乐交流</td>
+<td>客服/教育</td>
+<td>个性化推荐</td>
+</tr>
+<tr>
+<td><strong>典型</strong></td>
+<td>Siri/小娜</td>
+<td>小冰</td>
+<td>Watson</td>
+<td>今日头条</td>
+</tr>
+<tr>
+<td><strong>轮数</strong></td>
+<td>单轮</td>
+<td>多轮</td>
+<td>单轮</td>
+<td>单轮</td>
+</tr>
+</tbody></table>
+<h3 id="早期工作"><a href="#早期工作" class="headerlink" title="早期工作"></a>早期工作</h3><table>
+<thead>
+<tr>
+<th><strong>名称</strong></th>
+<th>Eliza</th>
+<th>Clippy</th>
+<th>A.L.I.C.E</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>开发者</strong></td>
+<td>MIT</td>
+<td>微软</td>
+<td>Richard S. Wallace</td>
+</tr>
+<tr>
+<td><strong>时间</strong></td>
+<td>20世纪60年代</td>
+<td>20世纪90年代</td>
+<td>1995年</td>
+</tr>
+<tr>
+<td><strong>特点</strong></td>
+<td>不好用</td>
+<td>不好用</td>
+<td>尽管是启发式模板匹配，但却是同类产品中做的最好的</td>
+</tr>
+</tbody></table>
+<h3 id="转折"><a href="#转折" class="headerlink" title="转折"></a>转折</h3><p>2016年微软、Facebook、Amazon等公司分别发布了各自的相关产品，原因有如下两点：</p>
+<ol>
+<li>消息类服务(尤其是社交网络)大发展</li>
+<li>深度学习技术实现突破</li>
+</ol>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><h4 id="开放域：无明确主题、目标"><a href="#开放域：无明确主题、目标" class="headerlink" title="开放域：无明确主题、目标"></a>开放域：无明确主题、目标</h4><p>特点：</p>
+<ul>
+<li>依赖丰富的知识</li>
+<li>要完成任务</li>
+<li>具有社交性</li>
+</ul>
+<p>问题：</p>
+<ul>
+<li>逐渐趋于娱乐化，而非完成任务</li>
+<li>质量、深度不够</li>
+</ul>
+<h4 id="封闭域：明确的目标，限定知识范围"><a href="#封闭域：明确的目标，限定知识范围" class="headerlink" title="封闭域：明确的目标，限定知识范围"></a>封闭域：明确的目标，限定知识范围</h4><p>特点：</p>
+<ul>
+<li>有限知识，有限输入输出</li>
+<li>专注某一项工作</li>
+<li>有明确的目标</li>
+</ul>
+<p>问题：</p>
+<ul>
+<li>容错低</li>
+<li>数据少，无法数据驱动</li>
+<li>耗费人力物力，难以平行迁移</li>
+</ul>
+<h3 id="经典架构（任务型对话）"><a href="#经典架构（任务型对话）" class="headerlink" title="经典架构（任务型对话）"></a>经典架构（任务型对话）</h3><p>一般由3个核心模块构成：自然语言理解（NLU）、对话管理（DM，包括DST和DPO）和自然语言生成（NLG）</p>
+<p><img src="framework.png" alt=""></p>
+<blockquote>
+<p>车万翔,张伟男.人机对话系统综述[J].人工智能,2018(01):76-82.</p>
+</blockquote>
+<p>如图所示，仅看右侧就好，左侧是语音到文字的转换及其逆过程。其中NLU叫做SLU了，其实是一个意思。</p>
+<h4 id="NLU：自然语言-gt-结构化的语义表示"><a href="#NLU：自然语言-gt-结构化的语义表示" class="headerlink" title="NLU：自然语言 -&gt; 结构化的语义表示"></a>NLU：自然语言 -&gt; 结构化的语义表示</h4><p>示例：</p>
+<blockquote>
+<p>目标是识别出领域、意图和语义槽</p>
+</blockquote>
+<p><em>输入</em> ：<code>查一下明天到上海的机票</code><br><em>输出</em> : </p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;</span></span><br><span class="line"><span class="tag">    领域=<span class="string">航旅;</span></span></span><br><span class="line"><span class="tag">    意图=<span class="string">查询机票;</span></span></span><br><span class="line"><span class="tag">    语义槽(</span></span><br><span class="line"><span class="tag">        出发日期=<span class="string">明天;</span></span></span><br><span class="line"><span class="tag">        到达地=<span class="string">上海</span></span></span><br><span class="line"><span class="tag">    )</span></span><br><span class="line"><span class="tag">&gt;</span></span><br></pre></td></tr></table></figure>
+<p>主要任务：</p>
+<ul>
+<li>领域识别</li>
+<li>意图识别</li>
+<li>槽值识别</li>
+</ul>
+<p>实现方法：</p>
+<ul>
+<li>文本分类（Text Classification）<ul>
+<li>定义：根据预先设定好的主题类别，按照一定的规则，为未知类别的文本分类</li>
+<li>应用：对用户的输入进行<strong>领域分类</strong>和<strong>意图分类</strong></li>
+<li>机器学习实现：k近邻法(kNN)、朴素贝叶斯和支持向量机(SVM)</li>
+<li>深度学习实现：卷积神经网络(CNN)、CNN与循环神经网络结合(CNN+RNN)</li>
+</ul>
+</li>
+<li>序列标注（语义分析/语义标注）<ul>
+<li>定义：给自然语言文本序列打上对应标签</li>
+<li>应用：本任务中的<strong>槽值识别</strong>，别的任务中的分词、词性标注和命名实体识别(NER)等</li>
+<li>机器学习实现：隐马尔可夫模型(HMM)、最大熵马尔可夫模型(MEMM)、条件随机场(CRF)和感知机（单层神经网络）</li>
+<li>深度学习实现：长短时记忆网络(LSTM)、LSTM+CRF</li>
+</ul>
+</li>
+</ul>
+<h4 id="DM：综合当前用户输入和历史中已获得的信息，给出机器作答的结构化表示"><a href="#DM：综合当前用户输入和历史中已获得的信息，给出机器作答的结构化表示" class="headerlink" title="DM：综合当前用户输入和历史中已获得的信息，给出机器作答的结构化表示"></a>DM：综合当前用户输入和历史中已获得的信息，给出机器作答的结构化表示</h4><p>示例：<br><em>DST</em> ：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; 日期=<span class="string">NULL;</span> 出发地=<span class="string">NULL;</span> 到达地=<span class="string">NULL</span> &gt;</span></span><br><span class="line">=变成=&gt;</span><br><span class="line"><span class="tag">&lt; 日期=<span class="string">NULL;</span> 出发地=<span class="string">NULL;</span> 到达地=<span class="string">上海</span> &gt;</span></span><br></pre></td></tr></table></figure>
+<p><em>DPO</em> : </p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt; <span class="attr">ask</span>=<span class="string">出发地</span> &gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>DST</strong>：通过自然语言的结构化表示，理解、捕捉用户的意图、目标</p>
+<ul>
+<li>将与用户交互的过程看作在填一张表，这张表记录了当前对话的状态</li>
+<li>不断从对话中抽取信息，填到这张表空缺的地方</li>
+<li>“当前在填哪个语义槽”确定的情况下，是一个监督学习的多分类任务（参考上文文本分类）</li>
+</ul>
+<p><strong>DPO</strong>：与用户交互，获取到缺少的信息</p>
+<ul>
+<li>若<strong>动作</strong>和<strong>槽位</strong>少，则可基于规则</li>
+<li>若复杂，但每步无标准答案，是强化学习问题</li>
+</ul>
+<p>实现方法：有限状态自动机(FSA)、填槽法、基于实例的方法、基于规划的方法和贝叶斯网络</p>
+<h4 id="NLG：把DM的结构化对话策略，还原成对人友好的自然语言"><a href="#NLG：把DM的结构化对话策略，还原成对人友好的自然语言" class="headerlink" title="NLG：把DM的结构化对话策略，还原成对人友好的自然语言"></a>NLG：把DM的结构化对话策略，还原成对人友好的自然语言</h4><p>实现方案：</p>
+<ul>
+<li>基于模板产生回复（rule based）</li>
+<li>基于深度学习的生成模型（seq2seq模型）</li>
+<li>基于知识库检索（query based）</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>解决方案</th>
+<th>优点</th>
+<th>缺点</th>
+<th>应用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>rule based</strong></td>
+<td>在特定领域内很准确</td>
+<td>移植、扩展能力差</td>
+<td>个人助理</td>
+</tr>
+<tr>
+<td><strong>seq2seq</strong></td>
+<td>数据驱动</td>
+<td>需要大量语料</td>
+<td>闲聊机器人</td>
+</tr>
+<tr>
+<td><strong>query based</strong></td>
+<td>易扩充，无语法错误</td>
+<td>不连续、答非所问</td>
+<td>问答/客服</td>
+</tr>
+</tbody></table>
+<p>目前基于深度学习的seq2seq（亦称Encoder-Decoder）生成式端到端模型快速发展</p>
+<h3 id="发展趋势"><a href="#发展趋势" class="headerlink" title="发展趋势"></a>发展趋势</h3><ul>
+<li>目前任务型对话是趋势</li>
+<li>让端到端的闲聊机器人可用性提升是发展方向</li>
+</ul>
+<h4 id="典型问题："><a href="#典型问题：" class="headerlink" title="典型问题："></a>典型问题：</h4><ul>
+<li>经典任务型对话，在开放域中无法穷举意图和语义槽</li>
+<li>同样无法穷举回复策略</li>
+</ul>
+<h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><ul>
+<li>用向量隐式表示意图、策略等是不错的想法</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li>车万翔,张伟男.人机对话系统综述[J].人工智能,2018(01):76-82.</li>
+<li>贾熹滨,李让,胡长建,陈军成.智能对话系统研究综述[J].北京工业大学学报,2017,43(09):1344-1356.</li>
+</ul>
+</div>
+		<ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+		<div id="comment">
+			<a class="btn" href="" target="_blank">评论</a>
+		</div>
+	</div>
+	<script>
+		const url = `https://gitee.com/joenahm/joenahm/tree/master${location.pathname}`;
+		document.querySelector('.btn').setAttribute('href', url);
+	</script>
+</div>
+
+
+	
+<link rel="stylesheet" href="/css/footer.css">
+
+<footer>
+	<ul class="links" style="width: 250px">
+		<li>Copyright©<a href="mailto:joenahm@yeah.net">JoeNahm</a></li>
+		<li style="font-style: italic">Powered by <a target="_blank" href="http://hexo.io">Hexo</a></li>
+	</ul>
+	<ul class="links">
+		<li><a target="_blank" href="https://blog.csdn.net/joenahm" title="我的CSDN博客">此红柳</a></li>
+		<li><a target="_blank" href="https://www.cnblogs.com/joenahm/" title="我的cnblogs博客">彼红柳</a></li>
+	</ul>
+	<ul class="links">
+		<li><a target="_blank" href="http://www.xuzhengke.cn/">厂长的博客</a></li>
+		<li><a target="_blank" href="http://www.yaoyorozu.cn/">教主的博客</a></li>
+	</ul>
+	<ul class="links">
+		<li><a target="_blank" href="https://space.bilibili.com/13957052">Bilibili主页</a></li>	
+		<li><a target="_blank" href="https://github.com/joenahm">我的GitHub</a></li>
+		<li><a target="_blank" href="https://gitee.com/joenahm">我的Gitee</a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</footer>
+</body>
+</html>

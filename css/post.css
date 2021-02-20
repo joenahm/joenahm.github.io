@@ -21,7 +21,7 @@ ul, ol {
     #content {
       width: 80%; } }
   #content p {
-    margin-bottom: 20px; }
+    margin-top: 10px; }
 
 #stage .tag-list {
   width: 90%;
@@ -44,6 +44,10 @@ ul, ol {
   .video {
     height: 600px;
   }
+}
+
+h3,h4,h5 {
+    color: #046;
 }
 
 

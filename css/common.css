@@ -58,6 +58,9 @@ table td {
   padding: 0 15px;
   background-color: #acf;
 }
+.code,.gutter {
+  background: none;
+}
 
 #stage {
   width: 95%;
