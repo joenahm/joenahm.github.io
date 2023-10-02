@@ -13,3 +13,8 @@ footer {
     footer a:hover {
       text-decoration: none;
       font-weight: bold; }
+  footer .qrcode {
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
